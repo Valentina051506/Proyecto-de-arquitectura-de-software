@@ -85,7 +85,7 @@ RedMotor ERP integra en una sola plataforma web todos los procesos del concesion
 | **Secuencia** | Flujos principales: login, venta, financiamiento, garantías |
 | **Entidad - Relación** | Modelo de datos completo del sistema |
 
-> Los diagramas en PlantUML están disponibles en la carpeta [`/docs/diagrams`](./docs/diagrams)
+> Los diagramas en PlantUML están disponibles en la carpeta [`/diagrams`](./diagrams)
 
 ---
 
