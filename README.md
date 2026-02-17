@@ -17,15 +17,15 @@
 
 ## Tabla de Contenido
 
-- [Descripción del Proyecto](#-descripción-del-proyecto)
-- [Problemática](#-problemática)
-- [Solución Propuesta](#-solución-propuesta)
-- [Módulos del Sistema](#-módulos-del-sistema)
-- [Diagramas](#-diagramas)
-- [Requisitos No Funcionales](#-requisitos-no-funcionales)
-- [Alcance y Limitaciones](#-alcance-y-limitaciones)
-- [Equipo](#-equipo)
-- [Enlaces](#-enlaces)
+- Descripción del Proyecto
+- Problemática
+- Solución Propuesta
+- Módulos del Sistema
+- Diagramas
+- Requisitos No Funcionales
+- Alcance y Limitaciones
+- Equipo
+- Enlaces
 
 ---
 
