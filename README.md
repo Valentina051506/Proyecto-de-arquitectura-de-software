@@ -1,7 +1,7 @@
 # Proyecto-de-arquitectura-de-software
 <div align="center">
 
-# 🚗 RedMotor ERP
+# RedMotor ERP
 
 ### Sistema ERP especializado para concesionarios de vehículos
 
@@ -15,7 +15,7 @@
 
 ---
 
-## 📋 Tabla de Contenido
+## Tabla de Contenido
 
 - [Descripción del Proyecto](#-descripción-del-proyecto)
 - [Problemática](#-problemática)
