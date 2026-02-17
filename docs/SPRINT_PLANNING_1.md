@@ -1,4 +1,4 @@
-# 🏃 Sprint Planning 1 — RedMotor ERP
+# Sprint Planning 1 — RedMotor ERP
 
 **Fecha:** Febrero 2026
 **Duración:** 2 semanas
@@ -7,7 +7,7 @@
 
 ---
 
-## 1. 🎯 Objetivo del Sprint
+## 1. Objetivo del Sprint
 
 > **"Implementar el módulo de Inventario de Vehículos con registro, consulta y actualización de estado, validado con pruebas y desplegado en entorno local."**
 
@@ -19,7 +19,7 @@ Este objetivo es medible porque al finalizar el Sprint se podrá:
 
 ---
 
-## 2. 📋 Historias de Usuario
+## 2. Historias de Usuario
 
 ### HU-01 — Registrar vehículo
 > **Como** administrador,
@@ -73,7 +73,7 @@ Este objetivo es medible porque al finalizar el Sprint se podrá:
 
 ---
 
-## 3. 🃏 Planning Poker — Estimación
+## 3. Planning Poker — Estimación
 
 | ID | Historia | Complejidad | Story Points |
 |----|----------|-------------|--------------|
@@ -87,7 +87,7 @@ Este objetivo es medible porque al finalizar el Sprint se podrá:
 
 ---
 
-## 4. 🔧 Desglose Técnico por Historia
+## 4. Desglose Técnico por Historia
 
 ### HU-01 — Registrar vehículo (8 SP)
 
@@ -138,7 +138,7 @@ Este objetivo es medible porque al finalizar el Sprint se podrá:
 
 ---
 
-## 5. 🌿 Plan de Versiones y Ramas
+## 5. Plan de Versiones y Ramas
 
 ### Flujo de trabajo (Git Flow simplificado)
 
@@ -169,7 +169,7 @@ main
 
 ---
 
-## 6. ✅ Límite de WIP
+## 6. Límite de WIP
 
 | Estado | Límite máximo |
 |--------|---------------|
@@ -179,7 +179,7 @@ main
 
 ---
 
-## 7. 📌 Criterios de Done (Definition of Done)
+## 7. Criterios de Done (Definition of Done)
 
 Una historia se considera **terminada** cuando cumple **todos** los siguientes puntos:
 
@@ -195,11 +195,11 @@ Una historia se considera **terminada** cuando cumple **todos** los siguientes p
 
 ---
 
-## 8. 📅 Sprint Backlog — Tablero GitHub Projects
+## 8. Sprint Backlog — Tablero GitHub Projects
 
 ### Columnas recomendadas para el tablero:
 
-| 📋 Backlog | 🔄 En Progreso | 👀 En Revisión | ✅ Done |
+| Backlog | En Progreso | En Revisión | Done |
 |-----------|---------------|----------------|--------|
 | HU-03 Actualizar estado | HU-01 Registrar vehículo | — | — |
 | HU-04 Eliminar vehículo | HU-02 Consultar inventario | — | — |
@@ -208,7 +208,7 @@ Una historia se considera **terminada** cuando cumple **todos** los siguientes p
 
 ---
 
-## 9. 🐙 Cómo configurar GitHub Projects
+## 9. Cómo configurar GitHub Projects
 
 1. Ir al repositorio → pestaña **Projects** → **New Project**
 2. Seleccionar plantilla **Board** (tablero Kanban)
