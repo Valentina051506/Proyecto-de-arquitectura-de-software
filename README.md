@@ -1,6 +1,7 @@
 # Proyecto-de-arquitectura-de-software
 <div align="center">
 <img src="img/logo.png" alt="RedMotor ERP" width="300"/>
+  
 # RedMotor ERP
 
 ### Sistema ERP especializado para concesionarios de vehículos
