@@ -1,0 +1,26 @@
+ID,Resumen,Descripción,Criterios de aceptación,Prioridad,Story Points,Estado,Enlace a Figma,Enlace a PlantUML,Enlace a DoR,Enlace a DoD
+HU-01,Registrar vehículo en inventario,"Como administrador quiero registrar un nuevo vehículo con sus datos completos para que quede disponible en el inventario del concesionario.","Dado que estoy en el formulario de nuevo vehículo
+Cuando ingreso VIN, marca, modelo, año, color, precio, kilometraje y tipo válidos
+Entonces el sistema guarda el vehículo con estado 'disponible' y lo muestra en el inventario
+Y si el VIN ya existe el sistema muestra un error de duplicado",Alta,8,To Do,https://www.figma.com/make/PieMlqJSy6aayMBCZiiLbm/Automotive-ERP-UI-Design-System?p=f&fullscreen=1,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/tree/docs/diagramas,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/wiki/Definition-of-Ready,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/wiki/Definition-of-Done
+HU-02,Consultar inventario de vehículos,"Como vendedor o administrador quiero ver el listado completo de vehículos con sus estados para saber qué está disponible para la venta.","Dado que hay vehículos registrados
+Cuando accedo a la vista de inventario
+Entonces veo la lista de vehículos con su estado actual
+Y puedo filtrar por estado: disponible, reservado, vendido, entregado, en garantía
+Y puedo buscar por marca, modelo o VIN",Alta,5,To Do,https://www.figma.com/make/PieMlqJSy6aayMBCZiiLbm/Automotive-ERP-UI-Design-System?p=f&fullscreen=1,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/tree/docs/diagramas,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/wiki/Definition-of-Ready,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/wiki/Definition-of-Done
+HU-03,Actualizar estado del vehículo,"Como vendedor quiero cambiar el estado de un vehículo para reflejar su situación actual dentro del concesionario.","Dado que existe un vehículo registrado
+Cuando cambio su estado siguiendo el flujo: disponible → reservado → vendido → entregado
+Entonces el estado se actualiza y se registra fecha y usuario del cambio
+Y el sistema pide confirmación antes de aplicar el cambio
+Y no se puede retroceder el estado sin permisos de administrador",Alta,5,To Do,https://www.figma.com/make/PieMlqJSy6aayMBCZiiLbm/Automotive-ERP-UI-Design-System?p=f&fullscreen=1,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/tree/docs/diagramas,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/wiki/Definition-of-Ready,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/wiki/Definition-of-Done
+HU-04,Eliminar vehículo del inventario,"Como administrador quiero eliminar un vehículo del inventario para mantener el sistema limpio de registros erróneos.","Dado que soy administrador y el vehículo tiene estado 'disponible'
+Cuando solicito eliminar el vehículo y confirmo la acción
+Entonces el vehículo desaparece del listado de inventario
+Y si el vehículo tiene otro estado el sistema no permite eliminarlo",Alta,3,To Do,https://www.figma.com/make/PieMlqJSy6aayMBCZiiLbm/Automotive-ERP-UI-Design-System?p=f&fullscreen=1,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/tree/docs/diagramas,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/wiki/Definition-of-Ready,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/wiki/Definition-of-Done
+HU-05,Alerta de vehículos sin movimiento,"Como administrador quiero recibir una alerta cuando un vehículo lleve más de 60 días sin cambio de estado para gestionar el inventario estancado.","Dado que un vehículo tiene más de 60 días en estado 'disponible' sin cambios
+Cuando el sistema revisa el inventario
+Entonces se muestra una alerta visual en el dashboard del administrador
+Y el vehículo queda marcado como 'sin movimiento'",Media,8,Backlog,https://www.figma.com/make/PieMlqJSy6aayMBCZiiLbm/Automotive-ERP-UI-Design-System?p=f&fullscreen=1,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/tree/docs/diagramas,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/wiki/Definition-of-Ready,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/wiki/Definition-of-Done
+HU-06,Reporte de rotación de inventario,"Como administrador quiero generar un reporte de movimientos de vehículos por rango de fechas para analizar la rotación del inventario.","Dado que existen vehículos con cambios de estado registrados
+Cuando solicito un reporte entre dos fechas
+Entonces el sistema genera un listado con: vehículo, estado anterior, estado nuevo, fecha y usuario responsable",Baja,5,Backlog,https://www.figma.com/make/PieMlqJSy6aayMBCZiiLbm/Automotive-ERP-UI-Design-System?p=f&fullscreen=1,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/tree/docs/diagramas,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/wiki/Definition-of-Ready,https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software/wiki/Definition-of-Done
