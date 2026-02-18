@@ -1,4 +1,4 @@
-# 🏁 Definition of Done (DoD) — RedMotor ERP
+# Definition of Done (DoD) — RedMotor ERP
 
 Una historia de usuario está **terminada** cuando cumple TODOS estos puntos:
 
