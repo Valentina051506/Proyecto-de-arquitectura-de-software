@@ -1,4 +1,4 @@
-# ✅ Definition of Ready (DoR) — RedMotor ERP
+# Definition of Ready (DoR) — RedMotor ERP
 
 Una historia de usuario está **lista para iniciar desarrollo** cuando cumple TODOS estos puntos:
 
@@ -39,4 +39,4 @@ Y lo muestra en el listado de inventario
 
 ---
 
-> ⚠️ Si la historia NO cumple el DoR, regresa al Backlog para refinamiento antes de moverla a **To Do**.
+> Si la historia NO cumple el DoR, regresa al Backlog para refinamiento antes de moverla a **To Do**.
