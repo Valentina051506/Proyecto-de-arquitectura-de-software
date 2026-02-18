@@ -103,7 +103,7 @@
 
 ---
 
-## 5. 🚦 Límite de WIP
+## 5. Límite de WIP
 
 | Columna | Límite WIP | Color |
 |---------|------------|-------|
@@ -197,7 +197,7 @@ Backlog → To Do → In Progress → In Review → Testing → Done
 ```
 ---
 
-## 🔗 Enlaces del Proyecto
+## Enlaces del Proyecto
 
 - [Repositorio GitHub](https://github.com/Valentina051506/Proyecto-de-arquitectura-de-software)
 - [Prototipo Figma](https://www.figma.com/make/PieMlqJSy6aayMBCZiiLbm/Automotive-ERP-UI-Design-System?p=f&fullscreen=1)
